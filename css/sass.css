@@ -7,13 +7,7 @@ html {
   font-family: 'Barlow Condensed', sans-serif; }
 
 body {
-  background-image: url(../img/Fondo.jpeg);
-  background-position: center center;
-  background-attachment: fixed;
-  background-size: cover;
-  position: relative;
-  padding: 1rem;
-  padding: top; }
+  background-color: #dee2e6; }
 
 span {
   font-size: 1.5rem; }
@@ -35,7 +29,8 @@ img {
 h1, h2 {
   color: #000;
   text-align: center;
-  padding: 2rem; }
+  padding: 1rem;
+  margin-top: 5rem; }
 
 h1 {
   font-size: 2.5rem; }
