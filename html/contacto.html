@@ -16,6 +16,8 @@
 </head>
 <body>
 
+  <header>
+
     <nav class="navbar navbar-dark bg-dark navbar-expand-lg fixed-top">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
@@ -54,43 +56,51 @@
         </div>
       </nav>
 
-    <h1 data-aos="zoom-in-up">Contactanos</h1>
+    </header> <!--cierre de navbar-->
 
-<form class="formulario">
-    <fieldset>
-        <legend>Contactanos llenando todos los formularios</legend>
+    <main>
 
-    <div>
+          <h1 data-aos="zoom-in-up">Contactanos</h1>
 
-        <div class="campo">
-            <label>Nombre</label>
-            <input class="input-text" type="text" placeholder="Nombre completo">
-        </div>
+        <form class="formulario">
+        
+            <fieldset>
+            
+                <legend>Contactanos llenando todos los formularios</legend>
+            
+            <div>
+            
+                <div class="campo">
+                    <label>Nombre</label>
+                    <input class="input-text" type="text" placeholder="Nombre completo">
+                </div>
+              
+                <div class="campo">
+                    <label>Telefono</label>
+                    <input class="input-text" type="number" placeholder="Num. de tel.">
+                </div>
+              
+                <div class="campo">
+                    <label>Correo</label>
+                    <input class="input-text" type="email" placeholder="Email">
+                </div>
+              
+                <div class="campo">
+                    <label>Mensaje</label>
+                    <textarea class="input-text" name="" id="" cols="30" rows="10"></textarea>
+                </div>
+              
+            </div> <!-- cierre de <div class="contenedorFormulario"> -->      
+            
+            </fieldset>  
+          
+                <div class="alinear">
+                    <input class="boton" type="submit" value="Enviar" >
+                </div>
+              
+          </form>
 
-        <div class="campo">
-            <label>Telefono</label>
-            <input class="input-text" type="number" placeholder="Num. de tel.">
-        </div>
-
-        <div class="campo">
-            <label>Correo</label>
-            <input class="input-text" type="email" placeholder="Email">
-        </div>
-
-        <div class="campo">
-            <label>Mensaje</label>
-            <textarea class="input-text" name="" id="" cols="30" rows="10"></textarea>
-        </div>
-
-    </div> <!-- cierre de <div class="contenedorFormulario"> -->      
-
-    </fieldset>  
-
-        <div class="alinear">
-            <input class="boton" type="submit" value="Enviar" >
-        </div>
-
- </form>
+    </main>
 
  <footer id="footer">                                              
      
@@ -126,7 +136,9 @@
             <a href="#"> <i class="fa-brands fa-square-twitter"> </i> Twitter </a>    
             <a href="#"> <i class="fa-brands fa-linkedin"></i> </i> Linkedin </a>
         </div>
+
     </div> <!-- cierre de container__footer -->
+
     <div class="box__copyright">
         <hr>
         <p> All rights reserved 2022</p>
@@ -134,6 +146,8 @@
     </div>    
                                                             
  </footer>
+
+    <!-- JavaScript Bundle with Popper -->
     <script src="../js/bootstrap.bundle.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
